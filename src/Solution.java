@@ -1,11 +1,15 @@
-import com.java.assignment.Bird;
+import com.java.assignment.*;
 
 public class Solution {
     public static void main(String args[]){
 
-        Bird bird = new Bird();
-        bird.walk();
-        bird.fly();
-        bird.sing();
+        Duck duck = new Duck();
+        duck.makeSound();
+        duck.swim();
+
+        Chicken chicken = new Chicken();
+        chicken.makeSound();
+        chicken.fly(); // throws Exception
+
     }
 }
