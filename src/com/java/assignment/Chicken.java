@@ -2,8 +2,22 @@ package com.java.assignment;
 
 public class Chicken extends Bird {
 
+    private boolean isRooster;
+
+    public Chicken(){
+        this.isRooster = false;
+    }
+
+    public Chicken(boolean isRooster){
+        this.isRooster = isRooster;
+    }
+
     public void makeSound() {
-        System.out.println("Cluck Cluck");
+        if(isRooster){
+            System.out.println("Cock-a-doodle-doo");
+        } else {
+            System.out.println("Cluck Cluck");
+        }
     }
 
     @Override
