@@ -11,5 +11,8 @@ public class Solution {
         chicken.makeSound();
         chicken.fly(); // throws Exception
 
+        Rooster rooster = new Rooster();
+        rooster.makeSound();
+
     }
 }
