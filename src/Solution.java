@@ -38,5 +38,22 @@ public class Solution {
 
         Parrot roosterParrot1 = parrotFactory.createParrot("Rooster");
         roosterParrot1.makeSound();
+
+        Fish fish = new Fish();
+        fish.swim();
+
+        Shark shark = new Shark();
+        shark.eatFish();
+        System.out.println("Shark is " + shark.size + " and " + shark.color + " in color.");
+
+        ClawnFish clawnFish = new ClawnFish();
+        clawnFish.makeJoke();
+        System.out.println("Clown fish is " + clawnFish.size + " and " + clawnFish.color + " in color.");
+
+        Dolphin dolphin = new Dolphin();
+        dolphin.swim();
+
+        
+
     }
 }
