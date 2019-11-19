@@ -29,5 +29,14 @@ public class Solution {
         RoosterParrot roosterParrot = new RoosterParrot();
         roosterParrot.makeSound();
 
+        ParrotFactory parrotFactory = new ParrotFactory();
+        Parrot dogParrot1 = parrotFactory.createParrot("Dog");
+        dogParrot1.makeSound();
+
+        Parrot catParrot1 = parrotFactory.createParrot("Cat");
+        catParrot1.makeSound();
+
+        Parrot roosterParrot1 = parrotFactory.createParrot("Rooster");
+        roosterParrot1.makeSound();
     }
 }
