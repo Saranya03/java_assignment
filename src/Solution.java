@@ -20,5 +20,14 @@ public class Solution {
         Chicken henChicken = new Chicken();
         henChicken.makeSound();
 
+        DogParrot dogParrot = new DogParrot();
+        dogParrot.makeSound();
+
+        CatParrot catParrot = new CatParrot();
+        catParrot.makeSound();
+
+        RoosterParrot roosterParrot = new RoosterParrot();
+        roosterParrot.makeSound();
+
     }
 }
