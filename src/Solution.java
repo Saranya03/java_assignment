@@ -85,10 +85,13 @@ public class Solution {
         walk_count = (int) Arrays.stream(animals).filter(animal -> animal instanceof Walkable).count();
         sing_count = (int) Arrays.stream(animals).filter(animal -> animal instanceof Bird).count();
 
-        System.out.printf(" Swim Count  : " + swim_count);
-        System.out.printf(" Fly Count  : " + fly_count);
-        System.out.printf(" Walk Count  : " + walk_count);
-        System.out.printf(" Bird Count  : " + sing_count);
+        System.out.println(" Swim Count  : " + swim_count);
+        System.out.println(" Fly Count  : " + fly_count);
+        System.out.println(" Walk Count  : " + walk_count);
+        System.out.println(" Bird Count  : " + sing_count);
+
+        Rooster rooster2 = new Rooster("Danish");
+        rooster2.makeSound();
 
     }
 }
