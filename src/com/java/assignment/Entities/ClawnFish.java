@@ -1,4 +1,4 @@
-package com.java.assignment;
+package com.java.assignment.Entities;
 
 public class ClawnFish extends Fish {
 

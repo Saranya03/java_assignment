@@ -1,4 +1,6 @@
-package com.java.assignment;
+package com.java.assignment.Entities;
+
+import com.java.assignment.Behaviours.Swimmers;
 
 public class Fish extends Animal implements Swimmers {
 

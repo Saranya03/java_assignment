@@ -1,4 +1,7 @@
-import com.java.assignment.*;
+import com.java.assignment.Behaviours.Flyable;
+import com.java.assignment.Behaviours.Swimmers;
+import com.java.assignment.Behaviours.Walkable;
+import com.java.assignment.Entities.*;
 
 import java.util.Arrays;
 

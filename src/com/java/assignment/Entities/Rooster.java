@@ -1,4 +1,4 @@
-package com.java.assignment;
+package com.java.assignment.Entities;
 
 
 import java.util.HashMap;

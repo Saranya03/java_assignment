@@ -1,4 +1,4 @@
-package com.java.assignment;
+package com.java.assignment.Behaviours;
 
 public interface Swimmers {
     public void swim();

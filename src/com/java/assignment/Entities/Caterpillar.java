@@ -1,4 +1,6 @@
-package com.java.assignment;
+package com.java.assignment.Entities;
+
+import com.java.assignment.Behaviours.Walkable;
 
 public class Caterpillar extends Animal implements Walkable {
 

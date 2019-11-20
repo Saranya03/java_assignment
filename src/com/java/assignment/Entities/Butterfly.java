@@ -1,4 +1,6 @@
-package com.java.assignment;
+package com.java.assignment.Entities;
+
+import com.java.assignment.Behaviours.Flyable;
 
 public class Butterfly extends Animal implements Flyable {
 
