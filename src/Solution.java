@@ -1,5 +1,7 @@
 import com.java.assignment.*;
 
+import java.util.Arrays;
+
 public class Solution {
     public static void main(String args[]){
 
@@ -59,7 +61,34 @@ public class Solution {
         Caterpillar caterpillar = new Caterpillar();
         caterpillar.walk();
 
+        Animal[] animals = new Animal[]{
+                new Duck(),
+                new Chicken(),
+                new Rooster(),
+                new DogParrot(),
+                new CatParrot(),
+                new RoosterParrot(),
+                new Fish(),
+                new Shark(),
+                new ClawnFish(),
+                new Dolphin(),
+                new Butterfly()
+        };
 
+        int swim_count;
+        int fly_count;
+        int walk_count;
+        int sing_count;
+
+        swim_count = (int) Arrays.stream(animals).filter(animal -> animal instanceof Swimmers).count();
+        fly_count = (int) Arrays.stream(animals).filter(animal -> animal instanceof Flyable).count();
+        walk_count = (int) Arrays.stream(animals).filter(animal -> animal instanceof Walkable).count();
+        sing_count = (int) Arrays.stream(animals).filter(animal -> animal instanceof Bird).count();
+
+        System.out.printf(" Swim Count  : " + swim_count);
+        System.out.printf(" Fly Count  : " + fly_count);
+        System.out.printf(" Walk Count  : " + walk_count);
+        System.out.printf(" Bird Count  : " + sing_count);
 
     }
 }
