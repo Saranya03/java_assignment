@@ -53,7 +53,13 @@ public class Solution {
         Dolphin dolphin = new Dolphin();
         dolphin.swim();
 
-        
+        Butterfly butterfly = new Butterfly();
+        butterfly.fly();
+
+        Caterpillar caterpillar = new Caterpillar();
+        caterpillar.walk();
+
+
 
     }
 }
